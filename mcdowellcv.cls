@@ -35,7 +35,7 @@
 \LoadClass[letterpaper,\mainfontsize]{article} 
 
 % Set document margins
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
+\usepackage[left=0.1in,top=0.1in,right=0.1in,bottom=0.1in]{geometry} 
 
 % Set font face
 \usepackage{fontspec}
