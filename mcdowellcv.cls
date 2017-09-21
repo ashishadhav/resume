@@ -22,7 +22,7 @@
 \ProvidesClass{mcdowellcv}[2017/06/18 v1.2.0 McDowell CV class]
 
 % Set up the fonts according to options
-\def\mainfontsize{11pt}
+\def\mainfontsize{10pt}
 \def\mainfontface{Times New Roman}
 
 \DeclareOption{calibri}{%
@@ -35,7 +35,7 @@
 \LoadClass[letterpaper,\mainfontsize]{article} 
 
 % Set document margins
-\usepackage[left=0.1in,top=0.1in,right=0.1in,bottom=0.1in]{geometry} 
+\usepackage[left=0.01in,top=0.1in,right=0.01in,bottom=0.1in]{geometry} 
 
 % Set font face
 \usepackage{fontspec}
@@ -83,7 +83,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 %--------------------------------------------------------------------------------
 
 \ifthenelse{\equal{\platformname}{\notwindowsname}}{
-	\def\namespaceskip{0.575em}
+	\def\namespaceskip{0.375em}
 	\def\afterheaderspace{1.1pt}
 	\def\beforesectionheaderspace{5pt}
 	\def\sectionheadermargin{6pt}
@@ -97,7 +97,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 	\def\subsectionmargin{9pt}
 	\def\aftersubsectionspace{2.1pt}
 }{
-	\def\namespaceskip{0.4em}
+	\def\namespaceskip{0.2em}
 	\def\afterheaderspace{3pt}
 	\def\beforesectionheaderspace{4.75pt}
 	\def\sectionheadermargin{6pt}
@@ -138,7 +138,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 	\typeout {kokoko}
 	\typeout \spaceskip
 	\spaceskip \namespaceskip \relax
-	\textbf{\LARGE\textls[110]{\textsc{\@name}}}
+	\textbf{\LARGE\textls[80]{\textsc{\@name}}}
 }
 
 \makeatother
