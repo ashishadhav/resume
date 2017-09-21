@@ -90,12 +90,12 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 	\def\beforesectionheaderhrulespace{2.85pt}
 	\def\sectionheaderhrlueheight{0.518pt}
 	\def\aftersectionheaderspace{-2.8pt}
-	\def\aftersinglelinesubsectionheaderspace{-20.25pt}
+	\def\aftersinglelinesubsectionheaderspace{-15.25pt}
 	\def\afterdoublelinesubsectionheaderspace{-11.75pt}
 	\def\aftermultilinesubsectionheaderspace{-7.75pt}
-	\def\afteremptysubsectionheaderspace{1.25pt}
+	\def\afteremptysubsectionheaderspace{3.25pt}
 	\def\subsectionmargin{9pt}
-	\def\aftersubsectionspace{2.1pt}
+	\def\aftersubsectionspace{3.1pt}
 }{
 	\def\namespaceskip{0.4em}
 	\def\afterheaderspace{3pt}
